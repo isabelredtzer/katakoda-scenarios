@@ -8,14 +8,12 @@ To be able to use TestNG with Maven we need to add the dependency in the pom.xml
 
 Add the following dependency: 
 
-`
-    <dependency>
+`   <dependency>
         <groupId>org.testng</groupId>
         <artifactId>testng</artifactId>
         <version>7.5</version>
         <scope>test</scope>
     </dependency>
-
 `{{copy}}
 
 Start by locating the AppTest.java file.
