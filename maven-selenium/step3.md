@@ -68,20 +68,12 @@ To be able to run the WebDriver in your Maven project using Method 1 you also ha
 
 So go ahead and copy this code into your dependencies in the pom-file:
 
-<pre data-target="clipboard">
-<dependency>
-<groupId>io.github.bonigarcia</groupId>
-<artifactId>webdrivermanager</artifactId>
-<version>4.4.3</version>
-<scope>test</scope>
-</dependency>
-</pre>
 `
     <dependency>
-    <groupId>io.github.bonigarcia</groupId>
-    <artifactId>webdrivermanager</artifactId>
-    <version>4.4.3</version>
-    <scope>test</scope>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>4.4.3</version>
+        <scope>test</scope>
     </dependency>
 `{{copy}}
 
