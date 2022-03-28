@@ -9,7 +9,7 @@ In this specific tutorial, you will learn how to integrate Selenium WebDrivers T
 ## How to install Selenium WebDriver
 There are three ways to install a Selenium WebDriver. Keep in mind that these are browser specific. In this tutorial we will show you different methods to install WebDrivers. However, this specific tutorial will be using method 1: Driver Management Software and use the ChromeDriver. 
 
-### 1. Driver Management Software
+### Method 1. Driver Management Software
 There are multiple versions of drivers and to make sure that you have the correct one there are thrid party libraries which can help you. This library is integrated with Maven and will make sure that you have the correct driver for your browser. 
 
 * Add `import io.github.bonigarcia.wdm.WebDriverManager;`{{copy}} to your test file.
@@ -27,7 +27,7 @@ Once this is done you will have to add the following dependecy to your pom.xml f
         <scope>test</scope>
     </dependency>
 
-### 2. PATH environment variable 
+### Method 2. PATH environment variable 
 This is how it's done from a Bash terminal. You can click [here](https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/#quick-reference) if you are working in a Zsh or Windows terminal. 
 
 To see what directories are already on PATH, open a Terminal and execute:
@@ -52,7 +52,7 @@ If your PATH is configured correctly above, you will see some output relating to
 
 You can regain control of your command prompt by pressing Ctrl+C
 
-### 3. Hardcoded location 
+### Method 3. Hardcoded location 
 If you prefer to download the driver and store it locally you can do so and then integrate it in your Java code as follows: 
 
     System.setProperty("webdriver.chrome.driver","/path/to/chromedriver");
@@ -61,6 +61,29 @@ If you prefer to download the driver and store it locally you can do so and then
 
 ## This tutorial
 As stated before this tutorial uses Method 1:  Driver Management Software to install a ChromeDriver. If you prefer to use another method or driver - feel free to try it out locally!
+
+To be able to run the WebDriver in your Maven project using Method 1 you also have to import a dependency in your pom.xml file!
+
+`pom.xml`{{open}}
+
+So go ahead and copy this code into your dependencies in the pom-file:
+
+<pre data-target="clipboard">
+<dependency>
+<groupId>io.github.bonigarcia</groupId>
+<artifactId>webdrivermanager</artifactId>
+<version>4.4.3</version>
+<scope>test</scope>
+</dependency>
+</pre>
+`
+    <dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>4.4.3</version>
+    <scope>test</scope>
+    </dependency>
+`{{copy}}
 
 If you still don't know how to use a Selenium WebDriver with TestNG move on to the next page to see the testing in action! 
 
