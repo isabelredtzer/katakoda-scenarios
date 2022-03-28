@@ -2,6 +2,22 @@
 
 Now that you have set up your Maven project and integrated your Selenium environment, it’s time to test it out and start writing your tests. 
 
+To be able to use TestNG with Maven we need to add the dependency in the pom.xml file.
+
+`pom.xml`{{open}}
+
+Add the following dependency: 
+
+`
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.5</version>
+        <scope>test</scope>
+    </dependency>
+
+`{{copy}}
+
 Start by locating the AppTest.java file.
 
 `AppTest.java`{{open}}
