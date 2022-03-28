@@ -6,6 +6,23 @@ The project structure of a Java project in Maven generally looks like this:
 
 <img src="./img/mvnimage.png" alt="image" width="500"/>
 
+
+## Installing maven
+
+Maven is a Java tool, so you must have Java installed in order to proceed. 
+Then, [download Maven](https://maven.apache.org/download.cgi) and follow the [installation instructions](https://maven.apache.org/install.html). After that, type the following in a terminal to make sure that maven is correctly installed:
+
+`mvn --version`{{execute}}
+
+
+For the purpose of this tutorial we have provided a basic maven project to work from. 
+
+To begin this tutorial clone the following repo:
+
+
+`git clone https://github.com/isabelredtzer/katacoda-maven-selenium.git`{{execute}}
+
+
 To test in Maven you can add your tests to the files in the “test”-folder. An example of this is that the tests for the class src/main/java/App.java are located in src/test/java/AppTest.java
 
 Maven provides pom.xml which is the core of any project. This is the configuration file containing project information and configuration details used by Maven build. It is located in the root directory of each project. 
