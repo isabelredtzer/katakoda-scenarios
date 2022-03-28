@@ -1,8 +1,8 @@
 {
-  "title": "Automate tests with Maven & Selenium",
+  "title": "Automated testing with Maven and Selenium",
   "description": "",
   "difficulty": "Intermediate",
-  "time": "15-30 minutes",
+  "time": "15-30min",
   "details": {
     "steps": [
       {
@@ -29,8 +29,10 @@
       "text": "finish.md"
     }
   },
-  "environment": {},
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
   "backend": {
-    "imageid": "ubuntu1904"
+    "imageid": "ubuntu:2004"
   }
 }
