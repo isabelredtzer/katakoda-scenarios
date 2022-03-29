@@ -8,7 +8,7 @@ In order to test a web application manually a multitude of test cases have to be
 Selenium is platform-independent, meaning it can be used on every operating system (Linux, Windows, Macintosh etc) and it can test web applications against various browsers (Firefox,Chrome, Safari etc). It also features a lot of flexibility for the tester since tests can be coded in several programming languages such as Java, Python, Perl, PHP, and Ruby. It can also be integrated with tools like JUnit and TestNG for test management. 
 
 
-## Adding Selenium Maven dependencies
+## Adding Selenium Maven dependencies 💻
 
 
 Maven provides pom.xml which is the core of any project. This is the configuration file containing project information and configuration details used by Maven build. It is located in the root directory of each project. 
