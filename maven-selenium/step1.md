@@ -37,7 +37,7 @@ To run your test use the command:
 
 You should now receive a message in the terminal saying "Build Success" and information on how many tests were ran aswell as information about how many of them passed and failed.
 
-To test in Maven you can add your tests to the files in the “test”-folder. 
+To test in Maven you can add your tests to the files in the “test”-folder. Click here to open the test-file `./katacoda-maven-selenium/test-project/src/test/java/AppTest.java`{{open}}.
 
 Don't worry if you don't know how to do this yet, you will learn in Step 4 🎉
 
