@@ -4,9 +4,16 @@ Now that you have set up your Maven project and integrated your Selenium environ
 
 To be able to use TestNG with Maven we need to add the dependency in the pom.xml file.
 
-`./katacoda-maven-selenium/test-project/src/pom.xml`{{open}}
+`./katacoda-maven-selenium/test-project/pom.xml`{{open}}
 
 Add the following dependency: 
+
+<pre class="file" data-filename="./katacoda-maven-selenium/test-project/pom.xml" data-target="insert"  data-marker="<!--Add dependency for TestNG-->">console.log("<dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.5</version>
+        <scope>test</scope>
+    </dependency>")</pre>
 
 `   <dependency>
         <groupId>org.testng</groupId>
@@ -42,7 +49,12 @@ Add a dummy test to make sure the environment is working:
     }
 </pre>
 
+Now you can run `mvn compile`{{execute}} and `mvn test`{{execute}} to see your test in action!
+
 And after that, go ahead and try out using the WebDriver Test! 
+This is not supported by Katacoda so to make sure you've understood all the steps - repeat them locally and add the following test to your AppTest.java file!
+
+
 <pre class="file" data-target="clipboard">
    @Test
     public void testNew(){
