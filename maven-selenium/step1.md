@@ -14,6 +14,7 @@ Then, [download Maven](https://maven.apache.org/download.cgi) and follow the [in
 
 `mvn --version`{{execute}}
 
+## Using maven
 
 For the purpose of this tutorial we have provided a basic maven project to work from. 
 
@@ -23,6 +24,17 @@ To begin this tutorial clone the following repo:
 `git clone https://github.com/isabelredtzer/katacoda-maven-selenium.git`{{execute}}
 
 
-To test in Maven you can add your tests to the files in the “test”-folder. An example of this is that the tests for the class src/main/java/App.java are located in src/test/java/AppTest.java
+In order to get to the the root of this maven project navigate in the terminal using:
 
-Maven provides pom.xml which is the core of any project. This is the configuration file containing project information and configuration details used by Maven build. It is located in the root directory of each project. 
+`cd katacoda-maven-selenium/test-project/`{{execute}}
+
+Now you want to compile your Java sources. For this trigger the following Maven command:
+
+`mvn compile`{{execute}}
+
+To run your test use the command:
+
+`mvn execute`{{execute}}
+
+To test in Maven you can add your tests to the files in the “test”-folder. An example of this is that the tests for the class src/main/java/App.java are located in src/test/java/AppTest.java
+Don't worry if you don't know how to do this yet, you will learn in step4
