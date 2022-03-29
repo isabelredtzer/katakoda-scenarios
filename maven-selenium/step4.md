@@ -1,4 +1,4 @@
-# TestNG with WebDrivers
+# Maven Dependency for TestNG
 
 Now that you have set up your Maven project and integrated your Selenium environment, it’s time to test it out and start writing your tests. 
 
@@ -16,6 +16,8 @@ Add the following dependency:
     &lt;scope>test&lt;/scope>
 &lt;/dependency>
 </pre>
+
+# Test Structure
 
 Start by locating the AppTest.java file.
 
@@ -48,7 +50,8 @@ public void dummyTest(){
 
 Now you can run `mvn compile`{{execute}} and `mvn test`{{execute}} to see your test in action!
 
-And after that, go ahead and try out using the WebDriver Test! 
+# Test WebDrivers locally 
+And after that, go ahead and try out using the WebDriver Test! 🎉
 This is not supported by Katacoda so to make sure you've understood all the steps - repeat them locally and add the following code to your AppTest.java file!
 
 
@@ -90,7 +93,7 @@ To make sure that your tests are running correctly, run the command mvn test in 
 `mvn compile`{{execute}}
 `mvn test`{{execute}}
 
-# Further test examples
+# Endless possibilities of WebDrivers 🤯
 
 Here are some useful examples that you can do with WebDrivers to explore your testing further:
 
@@ -98,6 +101,6 @@ Here are some useful examples that you can do with WebDrivers to explore your te
 the specified URL in the browser instance
 * getTitle() - The command is used to retrieve the title of the webpage the user is currently working on.
 * getAttribute() - The command is used to retrieve the value of the specified attribute
-* Select selectByValue = new Select(driver.findElement(By.id("SelectID_One"))); & selectByValue.selectByValue - allows you to select multiple values to make sure the webpage works as expected. 
+* Select selectByValue = new Select(driver.findElement(By.id("SelectID_One"))); & selectByValue.selectByValue - allows you to select multiple values to make sure the webpage works as expected.
 
 Happy testing! 
