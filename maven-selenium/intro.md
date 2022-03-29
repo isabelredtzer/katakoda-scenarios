@@ -18,3 +18,5 @@ Build automation is important to DevOps since it must be established before an o
 * Prior knowledge in Java and GitHub
 * Basic knowledge of using Maven 
 
+## Good to know
+💻 This emoji will show you when you have to execute a command in the terminal or add some code to the files!
