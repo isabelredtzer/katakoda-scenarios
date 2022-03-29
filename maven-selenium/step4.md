@@ -4,7 +4,7 @@ Now that you have set up your Maven project and integrated your Selenium environ
 
 To be able to use TestNG with Maven we need to add the dependency in the pom.xml file.
 
-`pom.xml`{{open}}
+`./katacoda-maven-selenium/test-project/src/pom.xml`{{open}}
 
 Add the following dependency: 
 
@@ -18,7 +18,7 @@ Add the following dependency:
 
 Start by locating the AppTest.java file.
 
-`AppTest.java`{{open}}
+`./katacoda-maven-selenium/test-project/src/test/java/AppTest.java`{{open}}
 
 Add the needed imports to the AppTest.java file:
 
