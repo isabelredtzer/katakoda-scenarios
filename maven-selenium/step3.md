@@ -6,7 +6,7 @@ The Selenium WebDrivers are available for many languages such as Java, C#, Ruby,
 In this specific tutorial, you will learn how to integrate Selenium WebDrivers Testing in a Maven project. 
 
 
-# How to install Selenium WebDriver
+# How to install Selenium WebDriver 💻
 There are three ways to install a Selenium WebDriver. Keep in mind that these are browser specific. In this tutorial we will show you different methods to install WebDrivers. However, this specific tutorial will be using Driver Management Software and use the ChromeDriver. 
 
 **Driver Management Software**
