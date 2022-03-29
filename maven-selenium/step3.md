@@ -9,20 +9,19 @@ In this specific tutorial, you will learn how to integrate Selenium WebDrivers T
 # How to install Selenium WebDriver
 There are three ways to install a Selenium WebDriver. Keep in mind that these are browser specific. In this tutorial we will show you different methods to install WebDrivers. However, this specific tutorial will be using Driver Management Software and use the ChromeDriver. 
 
-## Driver Management Software
+**Driver Management Software**
+
 There are multiple versions of drivers and to make sure that you have the correct one there are thrid party libraries which can help you. This library is integrated with Maven and will make sure that you have the correct driver for your browser. 
 
 Start by adding the following dependecy to your pom.xml file:
 
 <pre class="file" data-filename="./katacoda-maven-selenium/test-project/pom.xml" data-target="insert"  data-marker="<!--Add dependency for WebDriver-->">
-
-    &lt;dependency>
-        &lt;groupId>org.testng&lt;/groupId>
-        &lt;artifactId>testng&lt;/artifactId>
-        &lt;version>7.5&lt;/version>
-        &lt;scope>test&lt;/scope>
-    &lt;/dependency>
-
+&lt;dependency>
+    &lt;groupId>io.github.bonigarcia&lt;/groupId>
+    &lt;artifactId>webdrivermanager&lt;/artifactId>
+    &lt;version>4.4.3&lt;/version> 
+    &lt;scope>test&lt;/scope>
+&lt;/dependency>
 </pre>
 
 On the next page you will get to use the webdriver to test! 
