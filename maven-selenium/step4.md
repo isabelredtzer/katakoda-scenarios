@@ -8,12 +8,14 @@ To be able to use TestNG with Maven we need to add the dependency in the pom.xml
 
 Add the following dependency: 
 
-<pre class="file" data-filename="./katacoda-maven-selenium/test-project/pom.xml" data-target="insert"  data-marker="<!--Add dependency for TestNG-->">console.log("<dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.5</version>
-        <scope>test</scope>
-    </dependency>")</pre>
+<pre class="file" data-filename="./katacoda-maven-selenium/test-project/pom.xml" data-target="insert"  data-marker="<!--Add dependency for TestNG-->">
+   &lt;dependency>
+        &lt;groupId>org.testng&lt;/groupId>
+        &lt;artifactId>testng&lt;/artifactId>
+        &lt;version>7.5&lt;/version>
+        &lt;scope>test&lt;/scope>
+    &lt;/dependency>
+</pre>
 
 `   <dependency>
         <groupId>org.testng</groupId>
