@@ -32,9 +32,13 @@ Now you want to compile your Java sources. For this trigger the following Maven 
 
 `mvn compile`{{execute}}
 
+You should now receive a message in the terminal saying "Build Success"
+
 To run your test use the command:
 
-`mvn execute`{{execute}}
+`mvn test`{{execute}}
+
+You should now receive a message in the terminal saying "Build Success" and information on how many tests were ran aswell as inforamtion about how many of them passed and failed
 
 To test in Maven you can add your tests to the files in the “test”-folder. An example of this is that the tests for the class src/main/java/App.java are located in src/test/java/AppTest.java
 Don't worry if you don't know how to do this yet, you will learn in step4
