@@ -1,4 +1,4 @@
-# Maven Dependency for TestNG
+# Maven Dependency for TestNG 💻
 
 Now that you have set up your Maven project and integrated your Selenium environment, it’s time to test it out and start writing your tests. 
 
@@ -17,7 +17,7 @@ Add the following dependency:
 &lt;/dependency>
 </pre>
 
-# Test Structure
+# Test Structure 💻
 
 Start by locating the AppTest.java file.
 
@@ -50,7 +50,7 @@ public void dummyTest(){
 
 Now you can run `mvn compile`{{execute}} and `mvn test`{{execute}} to see your test in action!
 
-# Test WebDrivers locally 
+# Test WebDrivers locally 💻
 And after that, go ahead and try out using the WebDriver Test! 🎉
 This is not supported by Katacoda so to make sure you've understood all the steps - repeat them locally and add the following code to your AppTest.java file!
 
