@@ -90,4 +90,14 @@ To make sure that your tests are running correctly, run the command mvn test in 
 `mvn compile`{{execute}}
 `mvn test`{{execute}}
 
+# Further test examples
+
+Here are some useful examples that you can do with WebDrivers to explore your testing further:
+
+* get() - The command launches a new browser and opens
+the specified URL in the browser instance
+* getTitle() - The command is used to retrieve the title of the webpage the user is currently working on.
+* getAttribute() - The command is used to retrieve the value of the specified attribute
+* Select selectByValue = new Select(driver.findElement(By.id("SelectID_One"))); & selectByValue.selectByValue - allows you to select multiple values to make sure the webpage works as expected. 
+
 Happy testing! 
