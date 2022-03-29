@@ -6,19 +6,19 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Get familiar with Maven",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Get familiar with Selenium",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Understanding Selenium WebDrivers",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Integrate WebDrivers with TestNG",
         "text": "step4.md"
       }
     ],
