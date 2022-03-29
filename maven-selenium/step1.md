@@ -4,7 +4,7 @@ Maven is an open-source build automation tool developed by the Apache software f
 
 The project structure of a Java project in Maven generally looks like this: 
 
-![Image](./img/mvnimage.png)
+![Image](/maven-selenium/img/mvnimage.png) 
 
 
 ## Installing maven
