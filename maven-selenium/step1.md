@@ -1,18 +1,18 @@
-## What is maven and why use it?
+## What is Maven and why use it?
 
 Maven is an open-source build automation tool developed by the Apache software foundation. The tool allows developers to build and document the lifecycle framework. Maven includes features to compile source code, run tests, package your results and upload these packages to remote repos. It is widely used to manage project dependencies and the whole lifecycle of any project.
 
 
-## Installing maven
+## Installing Maven
 
 Maven is a Java tool, so you must have Java installed in order to proceed. 
 Then, [download Maven](https://maven.apache.org/download.cgi) and follow the [installation instructions](https://maven.apache.org/install.html). After that, type the following in a terminal to make sure that maven is correctly installed:
 
 `mvn --version`{{execute}}
 
-## Using maven
+## Using Maven
 
-For the purpose of this tutorial we have provided a basic maven project to work from. 
+For the purpose of this tutorial we have provided a basic Maven project to work from. 
 
 To begin this tutorial clone the following repo:
 
@@ -35,9 +35,9 @@ To run your test use the command:
 
 `mvn test`{{execute}}
 
-You should now receive a message in the terminal saying "Build Success" and information on how many tests were ran aswell as information about how many of them passed and failed
+You should now receive a message in the terminal saying "Build Success" and information on how many tests were ran aswell as information about how many of them passed and failed.
 
 To test in Maven you can add your tests to the files in the “test”-folder. 
-An example of this is that the tests for the class src/main/java/App.java are located in src/test/java/AppTest.java
 
-Don't worry if you don't know how to do this yet, you will learn in step4
+Don't worry if you don't know how to do this yet, you will learn in Step 4 🎉
+
