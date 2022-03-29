@@ -10,7 +10,7 @@ Then, [download Maven](https://maven.apache.org/download.cgi) and follow the [in
 
 `mvn --version`{{execute}}
 
-## Using Maven
+## Using Maven 💻
 
 For the purpose of this tutorial we have provided a basic Maven project to work from. 
 
