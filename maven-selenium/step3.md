@@ -14,12 +14,16 @@ There are multiple versions of drivers and to make sure that you have the correc
 
 Start by adding the following dependecy to your pom.xml file:
 
-   ` <dependency>
-        <groupId>io.github.bonigarcia</groupId>
-        <artifactId>webdrivermanager</artifactId>
-        <version>4.4.3</version>
-        <scope>test</scope>
-    </dependency>`{{copy}}
+<pre class="file" data-filename="./katacoda-maven-selenium/test-project/pom.xml" data-target="insert"  data-marker="<!--Add dependency for WebDriver-->">
+
+    &lt;dependency>
+        &lt;groupId>org.testng&lt;/groupId>
+        &lt;artifactId>testng&lt;/artifactId>
+        &lt;version>7.5&lt;/version>
+        &lt;scope>test&lt;/scope>
+    &lt;/dependency>
+
+</pre>
 
 On the next page you will get to use the webdriver to test! 
 
