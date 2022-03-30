@@ -13,3 +13,6 @@ This scenario contains the following steps:
 * Step 4 - Integrate WebDrivers with TestNG
 
 To try out the Katacoda please visit [this link](https://www.katacoda.com/isabelre/scenarios/maven-selenium).
+
+### Authors
+Vilma Jalava & Isabel Redtzer 
